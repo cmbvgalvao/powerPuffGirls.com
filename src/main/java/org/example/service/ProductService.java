@@ -37,7 +37,7 @@ public class ProductService {
 
     public Long createProduct(ProductDTO productDTO) {
         Product product = convertDTOToEntity(productDTO);
-        productRepository.saveAndFlush(product);
+        productRepository.save(product);
         return product.getId();
     }
 
