@@ -1,0 +1,8 @@
+org/example/dto/assembler/GenericDtoAssembler.class
+org/example/service/ProductService.class
+org/example/persistence/GenericDao.class
+org/example/persistence/ProductDao.class
+org/example/controller/MyAppController.class
+org/example/dto/ProductDto.class
+org/example/model/Product.class
+org/example/dto/assembler/ProductDtoAssembler.class
